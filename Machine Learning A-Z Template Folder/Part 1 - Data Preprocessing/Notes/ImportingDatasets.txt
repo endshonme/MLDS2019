@@ -1,0 +1,14 @@
+Python
+============
+Step 1: Set the working directory
+
+dataset = pd.read_csv('<data.csv>')
+
+Splitting independent and dependent variables
+X = dataset.iloc[:,:-1].values
+
+
+R
+=============
+dataset = read.csv('Data.csv')
+View(dataset)

@@ -1,0 +1,18 @@
+Python
+================
+
+PS: IMPORTANT NOTE. In the Python part of the next tutorial, ‘NaN’ has to be replaced by ‘np.nan’. This is due to an update in the sklearn library.
+
+When we cant see the full array np.set_printoptions(threshold = np.nan)
+
+from sklearn.preprocessing import Imputer
+imputer = Imputer(missing_values = 'NaN', strategy = 'mean', axis = 0)
+imputer.fit(X[:,1:2])
+
+#get the columns having NaN in the ndarray/dataframe
+X_dupli = dataset.iloc[:,:-1]
+X_dupli
+
+#To get the columns in a dataframe with Null values
+X_dupli.isna().any()
+X_dupli.columns[X_dupli.isna().any()].tolist()

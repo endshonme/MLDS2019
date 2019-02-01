@@ -1,0 +1,19 @@
+Python
+==================
+import numpy
+
+#Faster usage
+import numpy as np
+
+Numpy - Mathematical tools
+
+import matplotlib as plt
+from matplotlib import pyplot
+import matplotlib.pyplot as plt
+
+Matplotlib - Plotting and graphs in Python
+
+import pandas as pd
+
+R
+==================
