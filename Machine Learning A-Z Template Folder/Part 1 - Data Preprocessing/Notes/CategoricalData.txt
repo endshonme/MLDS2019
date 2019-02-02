@@ -1,0 +1,14 @@
+Nominal data - Names of people
+Ordinal data - Good, Better, Best
+		0    1       2
+#Encoding Categorical Variable
+from sklearn.preprocessing import LabelEncoder
+labelencoder_X = LabelEncoder()
+labelencoder_X.fit_transform(X[:,0]) #Appling to Countries
+
+Dummy Encoding
+onehotencoder =OneHotEncoder(categorical_features = [0])
+X = onehotencoder.fit_transform(X).toarray()
+
+Nominal vs Ordinal Variables
+https://stats.idre.ucla.edu/other/mult-pkg/whatstat/what-is-the-difference-between-categorical-ordinal-and-interval-variables/
