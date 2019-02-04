@@ -1,0 +1,19 @@
+The features should be of the same scale.
+Because of Euclidean distance calculations complexity, the features with higher value would
+dominate.
+
+Age Salaray
+44	72000
+48	79000
+
+So, Age and Salary should be feature scaled.
+
+Standardisation and Normalisation are two ways of scaling the features.
+from sklearn.preprocessing import StandardScaler
+sc_X = StandardScaler()
+X_train = sc_X.fit_transform(X_train)
+X_test = sc_X.transform(X_test)
+
+Dummy variables need not be scaled, but to just let everything to be on the same scale we do it.
+
+Most of the times Feature Scaling is not used as it is already included in the libraries itself.
