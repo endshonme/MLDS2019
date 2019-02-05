@@ -1,0 +1,7 @@
+Feature scaling is taken control by Linear Regression algo
+
+X = dataset.iloc[:, 0].values.reshape(-1, 1) will send a 2-D array for the Linear Regressor instead of 1-D array.
+
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
