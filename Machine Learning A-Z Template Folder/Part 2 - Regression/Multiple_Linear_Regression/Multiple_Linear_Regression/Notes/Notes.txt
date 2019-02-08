@@ -1,0 +1,10 @@
+***Dummy variable trap***
+
+One or several variables predict other is called Multicollinearity.
+
+In this cases the model couldn't distinguish the effects of D1 from D2.
+
+We cannot have constant and dummy variables at the same time.
+
+Always omit one dummy variable.
+If we have n dummy variables, consider only n-1 dummy variables.

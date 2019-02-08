@@ -16,3 +16,4 @@ plt.plot(X_train, regressor.predict(X_train), color = "blue")
 plt.title('Experience vs Salary (Training)')
 plt.xlabel('Experience')
 plt.ylabel('Salary')
+=============================
