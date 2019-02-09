@@ -8,3 +8,11 @@ We cannot have constant and dummy variables at the same time.
 
 Always omit one dummy variable.
 If we have n dummy variables, consider only n-1 dummy variables.
+
+Backward Elimination
+Some variables have much effects
+const - X0
+city 1 - x1
+rand d - x2
+adm - x3
+mark -x4
