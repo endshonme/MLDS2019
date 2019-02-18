@@ -1,0 +1,5 @@
+Efficient classifiers
+Decision Boundaries are important in seperating spaces into classes
+Maximum margin hyperplane. Positive Hyperplane, Negative Hyperplane.
+
+How SVMs are different
